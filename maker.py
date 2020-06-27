@@ -4,6 +4,7 @@
 
 import os
 import sys
+import time
 
 count = 1
 i = 1
@@ -57,7 +58,7 @@ def gawe():
 				no1 = no.replace('\n', '')
 				print " " + str(count) + " " + no1
 				count += 1
-				time.sleep(0.1)
+				time.sleep(0.01)
 		jml = open('word.txt', 'r').readlines()
 		jmk = open('word.txt', 'r').read()
 		jm = jmk.replace(' ', '').replace('\n', '').replace('  ', '')
