@@ -36,7 +36,7 @@ def gawe():
 			tambah()
 
 		elif pil == '2': 
-			os.remove('word.txt')
+			open('word.txt', 'w').write('')
 			def baru():
 				i = 1
 				while True:
