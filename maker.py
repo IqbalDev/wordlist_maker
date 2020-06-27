@@ -15,7 +15,7 @@ def gawe():
 	try:
 		os.system('cls' if os.name == 'nt' else 'clear')
 		print '''
-      Coded By Iqbal ID
+     Coded By: Iqbal Dev
   =========================
   { 1 } Tambah Data
   { 2 } Data Baru
